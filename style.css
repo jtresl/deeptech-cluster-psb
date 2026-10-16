@@ -29,3 +29,4 @@ main section{padding:56px 0}main section.soft{background:none}main .grid{grid-te
 @media(max-width:960px){.layout{grid-template-columns:1fr}.sidebar{position:static;margin:0 0 40px}.side-inner{max-height:none}}
 .brand{font-weight:700;font-size:1.05rem;color:var(--fg)}nav a{text-decoration:none}
 .hero .updated{font-size:.9rem;opacity:.75;margin-top:14px}.side-updated{font-size:.8rem;color:#8fe0d6;margin:-6px 0 6px;font-weight:600}.news .meta{color:#a9b4cf;font-weight:600}
+nav ul a.active{color:var(--accent);border-bottom:2px solid var(--accent);padding-bottom:4px}.hero.small{padding:60px 0 50px}.hero.small h1{font-size:clamp(1.8rem,4vw,2.6rem)}a.card.link{text-decoration:none;color:inherit}a.card.link:hover{border-color:var(--accent)}
