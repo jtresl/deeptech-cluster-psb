@@ -45,3 +45,9 @@ nav ul a.active{color:var(--accent);border-bottom:2px solid var(--accent);paddin
 .photo{width:84px;height:84px;border-radius:50%;object-fit:cover;margin-bottom:12px;border:3px solid #eef3ff}
 .person .inst{color:var(--muted);font-size:.9rem}.person .email{display:inline-block;margin-top:8px;font-size:.88rem}
 @media(max-width:960px){.home-layout{grid-template-columns:1fr;padding:0 20px}.home-layout .side-inner{border-radius:14px}}
+#vision{padding-top:10px}.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:26px}
+.pillar{background:linear-gradient(160deg,#fff,#f4f7ff);border:1px solid #e3e9f6;border-radius:14px;padding:20px;position:relative;overflow:hidden}
+.pillar:before{content:"";position:absolute;left:0;top:0;height:4px;width:100%;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.pillar:nth-child(2):before{background:linear-gradient(90deg,var(--accent2),#7bd88f)}.pillar:nth-child(3):before{background:linear-gradient(90deg,#7b5cff,var(--accent))}.pillar:nth-child(4):before{background:linear-gradient(90deg,#ff8a3d,#ff4f7b)}
+.ico{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#eef3ff;color:var(--accent);font-size:1.3rem;margin-bottom:10px}
+.pillar h4{margin:0 0 6px;font-size:1rem}.pillar p{margin:0;font-size:.9rem;color:#4a5368}
