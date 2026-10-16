@@ -30,3 +30,18 @@ main section{padding:56px 0}main section.soft{background:none}main .grid{grid-te
 .brand{font-weight:700;font-size:1.05rem;color:var(--fg)}nav a{text-decoration:none}
 .hero .updated{font-size:.9rem;opacity:.75;margin-top:14px}.side-updated{font-size:.8rem;color:#8fe0d6;margin:-6px 0 6px;font-weight:600}.news .meta{color:#a9b4cf;font-weight:600}
 nav ul a.active{color:var(--accent);border-bottom:2px solid var(--accent);padding-bottom:4px}.hero.small{padding:60px 0 50px}.hero.small h1{font-size:clamp(1.8rem,4vw,2.6rem)}a.card.link{text-decoration:none;color:inherit}a.card.link:hover{border-color:var(--accent)}
+
+.home-layout{display:grid;grid-template-columns:minmax(0,1fr) 440px;gap:40px;align-items:start;padding-left:max(20px,calc((100vw - 1100px)/2))}
+.home-layout .sidebar{margin-top:0;top:64px}.home-layout .side-inner{border-radius:0 0 0 18px;max-height:calc(100vh - 64px)}
+.side-inner{background:linear-gradient(160deg,#f2f6ff,#eefbf8 60%,#fff6ec);color:var(--fg);border-left:1px solid #e1e7f3;padding:26px 24px}
+.sidebar h2{color:#1c2233;border-bottom:3px solid;border-image:linear-gradient(90deg,var(--accent),var(--accent2),#ff8a3d) 1}
+.side-updated{color:#00756b}.news li{border-bottom:none;padding:7px 0}
+.newscard{display:grid;grid-template-columns:96px 1fr;gap:12px;background:#fff;border-radius:12px;padding:10px;box-shadow:0 2px 8px rgba(30,50,110,.07);text-decoration:none!important;color:inherit!important;transition:transform .15s}
+.newscard:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(30,50,110,.12)}
+.thumb{width:96px;height:72px;object-fit:cover;border-radius:8px}.tagthumb{display:grid;place-items:center;text-align:center;font-size:.72rem;font-weight:700;color:#fff;background:linear-gradient(135deg,#7b5cff,#00b3a4);padding:4px}
+.news li:nth-child(odd) .tagthumb{background:linear-gradient(135deg,#ff8a3d,#ff4f7b)}
+.newscard h4{margin:2px 0;font-size:.9rem;line-height:1.3;color:#1f3fae}.news .meta{color:#5b6478;font-size:.76rem}.news p{color:#3a4256;font-size:.82rem}
+.pill{display:inline-block;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#7b3fe4;background:#f1eaff;padding:1px 7px;border-radius:99px}
+.photo{width:84px;height:84px;border-radius:50%;object-fit:cover;margin-bottom:12px;border:3px solid #eef3ff}
+.person .inst{color:var(--muted);font-size:.9rem}.person .email{display:inline-block;margin-top:8px;font-size:.88rem}
+@media(max-width:960px){.home-layout{grid-template-columns:1fr;padding:0 20px}.home-layout .side-inner{border-radius:14px}}
