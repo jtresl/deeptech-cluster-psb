@@ -62,3 +62,10 @@ nav ul a.active{color:var(--accent);border-bottom:2px solid var(--accent);paddin
 .take p{margin:8px 0 0;font-size:.9rem;font-style:italic;color:#3a4256}
 @media(max-width:900px){.pillars{grid-template-columns:1fr 1fr}.news-row{grid-template-columns:1fr}.newsfull{padding:28px 16px!important}}
 @media(max-width:520px){.pillars{grid-template-columns:1fr}.news-left .newscard{grid-template-columns:90px 1fr}.news-left .thumb{width:90px;height:70px}}
+
+.take{position:relative;background:linear-gradient(150deg,#12204f,#1b3a8f);color:#e8eeff;border-left:none;border-radius:14px;padding:22px 22px 18px 26px;box-shadow:0 6px 18px rgba(18,32,79,.25);overflow:hidden}
+.news-row:nth-child(even) .take{background:linear-gradient(150deg,#0f3d4a,#13707a)}
+.take:before{content:"\201C";position:absolute;right:14px;top:-18px;font-size:7rem;font-family:Georgia,serif;color:rgba(255,255,255,.14);line-height:1}
+.take-badge{display:inline-flex;align-items:center;gap:8px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#ffd3a8}
+.take-badge .dot{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,#ff8a3d,#ff4f7b);color:#fff;font-size:.62rem;letter-spacing:0}
+.take p{color:#e8eeff;font-family:Georgia,"Times New Roman",serif;font-size:.95rem;line-height:1.55;position:relative}
